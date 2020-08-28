@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="idk">
+        <title>김도훈 뻘짓중</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Sidebar -->
+        <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+    <button onclick="w3_close()" class="w3-bar-item w3-large">닫기 &times;</button>
+    <a href="main.html" class="w3-bar-item w3-button">홈</a>
+    <a href="my_self.html" class="w3-bar-item w3-button">자기소개</a>
+    <a href="ido.html" class="w3-bar-item w3-button">하던짓</a>
+    <a href="career.html" class="w3-bar-item w3-button">커리어</a>
+    <a href="other.html" class="w3-bar-item w3-button">그 외</a>
+        </div>
+  
+        <!-- Page Content -->
+        <div class="w3-teal">
+    <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
+    <div class="w3-container">
+      <h1>김도훈의 뻘짓 저장소</h1>
+    </div>
+        </div>
+  
+        <script>
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+  
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+        </script>
+        <p>사이드바를 눌러주세요.</p>
+    </body>
+</html>
